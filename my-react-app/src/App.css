@@ -1,8 +1,21 @@
 .App {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  background-color: rgb(28, 30, 43);
+  width: 75%;
+  height: 30em;
+  color: white;
 }
-
+.supercontainer{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 60em;
+  padding: 1em;
+}
 .App-logo {
+  display: flex;
   height: 40vmin;
   pointer-events: none;
 }
@@ -17,9 +30,9 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: normal;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +48,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.ironlogo{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+  height: 2rem;
+  width: 2em;
+}
+.ironmenu {
+  justify-items: left;
+  width: 2em;
+  height: 1rem;
+}
+
+.text{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+.icon1{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-color: white;
+  color:black;
+}
+.icon2{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-color: white;
+  color:black;
+}
+.icon3{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-color: white;
+  color:black;
+}
+.icon4{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-color: white;
+  color:black;
 }
